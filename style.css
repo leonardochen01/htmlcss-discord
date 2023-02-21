@@ -88,7 +88,7 @@ a:hover{
   flex-direction: column;
 }
 
-h1{
+.titolo{
   align-self: center;
   padding-top: 50px;
   color: white;
@@ -96,7 +96,7 @@ h1{
   font-size: 60px;
 }
 
-h2{
+.frase{
   padding: 50px 130px;
   color: white;
   line-height: 35px;
@@ -262,24 +262,75 @@ h2{
 
 /*Immagine Grande*/
 
-.container-grande{
+.containergrande{
   background-color: rgb(246, 246, 246);
   width: 100%;
   min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding: 100px 0;
 }
 
-.immagine-grande{
+.immaginegrande{
   background-image: url(img/item4-big.svg);
   background-size: contain;
   width: 70%;
   min-height: 800px;
 }
 
-.container-tre{
+.testogrande{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titologrande{
+  font-size: 50px;
+  font-weight: bolder;
+  align-self: center;
+}
+
+.frasegrande{
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pronto{
+  background-image: url(img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.pronto h2{
+  align-self: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.scarica{
+  background-color: rgb(142, 161, 225);
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+
+/*Footer*/
+
+.containerquattro{
   background-color: rgb(35, 39, 42);
   width: 100%;
   height: 500px;
@@ -287,8 +338,6 @@ h2{
   align-items: center;
   justify-content: center;
 }
-
-/*Footer*/
 
 .info{
   background-color: rgb(240, 128, 128);
@@ -304,7 +353,7 @@ h2{
   border: 1px solid black;
 }
 
-.container-quattro{
+.containercinque{
   background-color: rgb(35, 39, 42);
   width: 100%;
   height: 80px;
@@ -326,6 +375,5 @@ h2{
 .registrati{
   background-color: rgb(240, 128, 128);
   border: 1px dashed black;
-
 }
 
