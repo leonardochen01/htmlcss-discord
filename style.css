@@ -93,7 +93,7 @@ h1{
   padding-top: 50px;
   color: white;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h2{
@@ -139,65 +139,144 @@ h2{
   justify-content: center;
 }
 
+/*Primo blocco*/
+
 .containeruno{
   background-color: white;
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 100px 0;
 }
+
+.immagineuno{
+  background-image: url(img/item1.svg);
+  background-size: cover;
+  min-height: 500px;
+  width: 40%;
+}
+
+.testouno{
+  height: 450px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titolouno{
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.fraseuno{
+  font-size: 22px;
+  font-weight: lighter;
+  align-self: center;
+  padding: 30px 70px;
+}
+
+/*Secondo blocco*/
 
 .containerdue{
   background-color: rgb(246, 246, 246);
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 100px 0;
 }
 
-/*la "g" sta per "grande" e "p" sta per "piccolo"*/
-
-.immagineg{
-  background-color: rgb(30, 144, 255);
+.testodue{
   height: 450px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.immaginedue{
+  background-image: url(img/item2.svg);
+  background-size: cover;
+  min-height: 500px;
   width: 40%;
 }
 
-.testop{
-  background-color: rgb(255, 192, 203);
+.titolodue{
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 140px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.frasedue{
+  font-size: 22px;
+  font-weight: lighter;
+  align-self: center;
+  padding: 30px 70px;
+}
+
+/*Terzo blocco*/
+
+.containertre{
+  background-color: white;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.immaginetre{
+  background-image: url(img/item3.svg);
+  background-size: cover;
+  min-height: 500px;
+  width: 40%;
+}
+
+.testotre{
   height: 450px;
   width: 30%;
 }
 
-.immaginep{
-  background-color: rgb(30, 144, 255);
-  height: 450px;
-  width: 30%;
+.titolotre{
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 140px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.testog{
-  background-color: rgb(255, 192, 203);
-  height: 450px;
-  width: 40%;
+.frasetre{
+  font-size: 22px;
+  font-weight: lighter;
+  align-self: center;
+  padding: 30px 70px;
 }
 
-.container-due{
+/*Immagine Grande*/
+
+.container-grande{
   background-color: rgb(246, 246, 246);
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 100px 0;
 }
 
 .immagine-grande{
-  background-color: darkgreen;
+  background-image: url(img/item4-big.svg);
+  background-size: contain;
   width: 70%;
-  height: 650px;
+  min-height: 800px;
 }
 
 .container-tre{
@@ -208,6 +287,8 @@ h2{
   align-items: center;
   justify-content: center;
 }
+
+/*Footer*/
 
 .info{
   background-color: rgb(240, 128, 128);
